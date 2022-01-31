@@ -1,13 +1,15 @@
 /* example functionality */
 $( document ).ready(function() {
-    $('#summonFireworks').click(function () {
-      $("#example").fireworks();
-      jQuery("#example").before(jQuery("canvas")); //this makes the canvas appear behind the example text
-    });
+    $("#example").fireworks();
+    jQuery("#example").before(jQuery("canvas"));
+    // $('#summonFireworks').click(function () {
+    //   $("#example").fireworks();
+    //   jQuery("#example").before(jQuery("canvas")); //this makes the canvas appear behind the example text
+    // });
     
-    $('#destroyFireworks').click(function() {
-      $("#example").fireworks('destroy');  
-    }); 
+    // $('#destroyFireworks').click(function() {
+    //   $("#example").fireworks('destroy');  
+    // }); 
   });
   
   /*

@@ -17,7 +17,7 @@
   position: absolute;
   top: 50%;
   opacity: 0;
-  animation: vem_feliz 2s ease-in-out 3s forwards;
+  animation: vem_feliz 2s ease-in-out 7s forwards;
 }
 .ano_novo{
   position: absolute;
@@ -205,6 +205,58 @@ a.author{
   right: 10px;
 }
 
+@keyframes vem_2017 {
+  0% {
+    right: 0%;
+  }
+  66.6666% {
+    right: 50%;
+    margin-right: -300px;
+  }
+  90% {
+    right: 50%;
+    margin-right: -300px;
+  }
+  100% {
+    right: 50%;
+  }
+}
+@keyframes vem_e_vai_balao {
+  0% {
+    right: 0%;
+  }
+  40% {
+    right: 50%;
+    margin-right: -300px;
+  }
+  50% {
+    right: 50%;
+    margin-right: -200px;
+    top: 50%;
+  }
+  100% {
+    top: -100%;
+    right: 50%;
+  }
+}
+@keyframes entrega_balao {
+  0% {
+    transform: rotate(-30deg);
+    width: 40px;
+  }
+  100% {
+    transform: rotate(-150deg);
+    width: 70px;
+  }
+}
+@keyframes vai_2016 {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: -100%;
+  }
+}
 @keyframes vem_feliz {
   0% {
     margin-top: 0px;
