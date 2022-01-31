@@ -17,6 +17,7 @@
   position: absolute;
   top: 50%;
   opacity: 0;
+  z-index: 99999999;
   animation: vem_feliz 2s ease-in-out 7s forwards;
 }
 .ano_novo{
@@ -36,7 +37,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 175px;
   font-weight: 700;
-  color: #7a8fe8;
+  color: rgba(122, 143, 232,0.4);
 }
 span.seis{
   position: absolute;
@@ -312,7 +313,7 @@ a.author{
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) {
     .feliz {
       margin-bottom: 5px;
     }
