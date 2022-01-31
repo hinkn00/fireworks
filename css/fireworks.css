@@ -5,10 +5,12 @@
     
 }
 
-button {
+button#summonFireworks, button#destroyFireworks {
+    cursor: pointer;
     color: grey;
 }
 
 body {
     background-color: #000;
 }
+
