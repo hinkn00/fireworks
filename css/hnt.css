@@ -359,13 +359,13 @@ a.author {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 529px) {
     .ano_novo {
         margin-top: 100px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width:530) and (max-width: 600px) {
     .ano_novo {
         margin-top: 50px;
     }
