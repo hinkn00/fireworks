@@ -313,8 +313,8 @@ a.author{
   }
 }
 
-@media only screen and (min-width: 400px) {
-    .feliz {
-      margin-bottom: 5px;
+@media only screen and (max-width: 400px) {
+    .ano_novo {
+      margin-top: 100px;
     }
   }
