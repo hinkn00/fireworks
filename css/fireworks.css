@@ -1,0 +1,14 @@
+#example {
+    padding-top: 5vh;
+    min-height: 90vh;
+    color: white;
+    
+}
+
+button {
+    color: grey;
+}
+
+body {
+    background-color: #000;
+}
